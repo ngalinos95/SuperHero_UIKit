@@ -1,20 +1,21 @@
 
-# Hero API (MVVM-SwiftUI)
+# Hero API (MVP-UIKit)
 
-This is a SwiftUI project.The main goal of the project is to create a simple Hero List application
-with MVVM deisgn pattern and Unit Tests
+This is a UIKit project.The main goal of the project is to create a simple Hero List application
+with  deisgn pattern and Unit Tests
 using an open source API to create a list of heroes with a seperate view with their images and some biography info
 
 ## Topics Covered
 
 - Algorithmic logic (correct way of calcualting and displayin the result)
-- Data model - Observable Object
-- Local Variables -State Objects
+- Data model - DI - Delegates
 - Text Modifications
-- VStack,HStack,ZStack interface (with ViewScroller)
-- NavigationStack , NavigationLink
-- MVVM practices
-- Unit Testings for the Service
+- UIKit - Programmatic declaration of View
+- UIKit - Interfacec Builder for creation of views - xib files 
+- Navigation Controller, TabBarController , UIScroll , Segments
+- MVP practices
+- Unit Testings for the Service and the Presenter
+- Mocking of the services for better testing practices - disconnect the test from the real API call
 - Get data from opensource API (Get Mapping)
 - JSON Decoder
 ## Features
