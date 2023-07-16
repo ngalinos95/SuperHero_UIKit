@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D772169E-7D3B-4E99-8DC8-615932826505"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5487DEC-E90E-4204-AB02-DBE4190275B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)/TabBarView/TabBarViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "TabBarViewControllerTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4161FB32-5097-4476-A1A0-838BE229992F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "HeroesTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - d17660bbf9cf7c3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.init(presenter: Heroes_MVP_UIKit_.HeroTablePresenter) -&gt; Heroes_MVP_UIKit_.HeroesTableViewController"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 72affb6693979f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Heroes_MVP_UIKit_.HeroesTableViewController&gt;"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 250eebb793ed9903"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.getter : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 2e831757bb8c410f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.setter : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - e8f57471f0b93f00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.modify : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 94add24fb7396462"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.modify : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8E33C59-83A0-43D1-A7D1-E2BB230079E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)Tests/HeroesTableTests/HeroresTablePresenterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testFetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B67E0E5-3A0D-4510-A044-26FD76357281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B67E0E5-3A0D-4510-A044-26FD76357281 - 886ea24c40674a02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_.HeroTablePresenter.fetchData() -&gt; ()"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "5B67E0E5-3A0D-4510-A044-26FD76357281 - ddd2ebb533847961"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; PromiseKit.Promise&lt;Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;&gt; in Heroes_MVP_UIKit_.HeroTablePresenter.fetchData() -&gt; ()"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "5B67E0E5-3A0D-4510-A044-26FD76357281 - 8f2aa19f16f5e834"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;) -&gt; () in Heroes_MVP_UIKit_.HeroTablePresenter.fetchData() -&gt; ()"
+                  moduleName = "Heroes_MVP(UIKit)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBF04888-3B8D-4C79-BBE1-9C4540CF9546"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

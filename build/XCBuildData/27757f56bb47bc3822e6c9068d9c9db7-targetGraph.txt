@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+PromiseKit in Pods, no dependencies
+Pods-Heroes_MVP(UIKit) in Pods, depends on:
+PromiseKit in Pods (explicit)

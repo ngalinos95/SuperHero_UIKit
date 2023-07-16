@@ -1,0 +1,48 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98009ae93a42dba8e8b29e0dc70ce25e61"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e986900418473f95d2ca123ead00545a9a8"
+    }
+  ],
+  "containerPath" : "/Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/galinosn/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/galinosn/Library/Developer/Xcode/DerivedData/Pods-formjxbzdxrbpegvcjuqqwiqzrkr/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/galinosn/Library/Developer/Xcode/DerivedData/Pods-formjxbzdxrbpegvcjuqqwiqzrkr/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
