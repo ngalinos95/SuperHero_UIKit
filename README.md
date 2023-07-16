@@ -33,7 +33,7 @@ using an open source API to create a list of heroes with a seperate view with th
 
 
 ## Demo
-![](https://github.com/ngalinos95/SuperHero-MVVM-/blob/main/hero.gif)
+![](https://github.com/ngalinos95/HeroesAPI_MVP-UIKit-/blob/main/hero.gif)
 
 
 
