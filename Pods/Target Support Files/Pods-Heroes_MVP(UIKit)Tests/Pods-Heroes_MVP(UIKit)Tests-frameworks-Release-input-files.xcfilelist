@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Heroes_MVP(UIKit)Tests/Pods-Heroes_MVP(UIKit)Tests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/SnapshotTesting/SnapshotTesting.framework

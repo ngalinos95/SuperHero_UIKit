@@ -9,37 +9,22 @@ import UIKit
 // MARK: - Outlets connection
 
 class AppInfoVIewController: UIViewController {
-    
     @IBOutlet var containerView: UIView!
-    
     @IBOutlet weak var scrollView: UIScrollView!
-    
     @IBOutlet weak var scrollContainerView: UIView!
-    
     @IBOutlet weak var appInfoLabel: UILabel!
-    
     @IBOutlet weak var descriptionTitle: UILabel!
-    
     @IBOutlet weak var descritionLabel: UILabel!
-    
     @IBOutlet weak var technologiesTitle: UILabel!
-    
     @IBOutlet weak var technologiesLabel: UILabel!
-    
-    
     // MARK: - LifyCycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
-        
         // Do any additional setup after loading the view.
     }
-    
-    
     // MARK: - Configure
-    
-    func configure(){
+    func configure() {
         appInfoLabel.text = "App Info"
         descriptionTitle.text = "Description"
         descritionLabel.text = """
@@ -50,10 +35,8 @@ class AppInfoVIewController: UIViewController {
         new features that cover many topics on Swift using
         clean code practices and focusing on good User
         Experience.
-        
         Check the List tab to see all the Heroes!
         """
-        
         technologiesTitle.text = "Technologies"
         technologiesLabel.text = """
         The main technologies used are
@@ -69,6 +52,4 @@ class AppInfoVIewController: UIViewController {
         -> Unit Tests
         """
     }
-    
-    
 }

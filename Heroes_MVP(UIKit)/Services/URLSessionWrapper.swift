@@ -6,15 +6,12 @@
 //
 
 import Foundation
-
 class URLSessionWrapper: URLSessionProtocol {
     private let session: URLSession
-    
-    init(session: URLSession = URLSession.shared) {
+    init (session: URLSession = URLSession.shared) {
         self.session = session
     }
-    
-    func dataTask(
+    func dataTask (
         with request: URLRequest,
         completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void
     ) -> HeroeDatask {

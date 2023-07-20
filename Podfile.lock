@@ -8,17 +8,21 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.18.1):
     - PromiseKit/CorePromise
+  - SnapshotTesting (1.9.0)
 
 DEPENDENCIES:
   - PromiseKit
+  - SnapshotTesting
 
 SPEC REPOS:
   trunk:
     - PromiseKit
+    - SnapshotTesting
 
 SPEC CHECKSUMS:
   PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
 
-PODFILE CHECKSUM: 5018dc182b152cb4e99311864aad3e6cb6b7c904
+PODFILE CHECKSUM: b2d191b425c98516b623aaf2e8e478992f910c2f
 
 COCOAPODS: 1.12.1

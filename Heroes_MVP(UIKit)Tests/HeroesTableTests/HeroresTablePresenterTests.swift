@@ -9,21 +9,18 @@ import XCTest
 @testable import Heroes_MVP_UIKit_
 import PromiseKit
 
-
-class MockHeroPresentersDelegate : HeroesPresenterDelegate {
+// CREATE NEW CHANGES
+final class HeroresTablePresenterTests: XCTestCase, HeroesPresenterDelegate {
+    var presentHeroInput : [SuperHero]!
     
-    var presenHeroInput : [Heroes_MVP_UIKit_.SuperHero]!
-    var expectation : XCTestExpectation!
     func presentHero(hero: [Heroes_MVP_UIKit_.SuperHero]) {
-        presenHeroInput = hero
+        self.presentHeroInput = hero
         expectation.fulfill()
     }
     
     
-}
+    let expectation = XCTestExpectation(description: "Get fetchdata expectation")
 
-final class HeroresTablePresenterTests: XCTestCase  {
-    
     var presenter : HeroTablePresenter!
     
     override func setUp() {
@@ -41,13 +38,9 @@ final class HeroresTablePresenterTests: XCTestCase  {
     
     func testFetchData() {
         
-        let expectation = XCTestExpectation(description: "Get fetchdata expectation")
-        //Given
-        let mockDelegate = MockHeroPresentersDelegate() // initiate the mockDelegate
         
-        mockDelegate.expectation = expectation //Set the expectation to the delegate
 
-        presenter.delegate = mockDelegate // !!! we connect the Presenter with the MockDeleagte
+        presenter.delegate = self // !!! we connect the Presenter with the PresenterTest
         //When
         presenter.fetchData() // when call the fetch data the presenter runs the promises closure
         //the data flow from the presenter goes to the mockup delegate 
@@ -55,7 +48,7 @@ final class HeroresTablePresenterTests: XCTestCase  {
         wait(for: [expectation], timeout: 10.0) // Adjust timeout as needed
         
         //Then
-        XCTAssertEqual(mockDelegate.presenHeroInput.count, 100)
+        XCTAssertEqual(self.presentHeroInput.count, 100)
   
     }
     

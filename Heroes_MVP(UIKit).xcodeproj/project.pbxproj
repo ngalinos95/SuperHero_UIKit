@@ -31,6 +31,8 @@
 		0E917B472A4ACFD800E03FE7 /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E917B462A4ACFD800E03FE7 /* SuperHeroModel.swift */; };
 		0EB454522A5D435A00428C00 /* MockHeroesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB454512A5D435A00428C00 /* MockHeroesService.swift */; };
 		0EB454572A5D651700428C00 /* HeroresTablePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB454562A5D651700428C00 /* HeroresTablePresenterTests.swift */; };
+		0ECD74CB2A67D749004E4350 /* HeroesTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD74CA2A67D749004E4350 /* HeroesTableViewControllerTests.swift */; };
+		0ECD74CE2A67F21D004E4350 /* InfoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD74CD2A67F21D004E4350 /* InfoViewControllerTests.swift */; };
 		0ECDDD9A2A557C920018BFD5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDDD992A557C920018BFD5 /* TabBarViewController.swift */; };
 		2A7485E0A8CBC2443BB39C9F /* Pods_Heroes_MVP_UIKit_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5AFE6A2A582AA000D70D40 /* Pods_Heroes_MVP_UIKit_.framework */; };
 		57AF1339516496194B5417AE /* Pods_Heroes_MVP_UIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5763FD54763686106D8477 /* Pods_Heroes_MVP_UIKit_Tests.framework */; };
@@ -76,6 +78,8 @@
 		0E917B462A4ACFD800E03FE7 /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
 		0EB454512A5D435A00428C00 /* MockHeroesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHeroesService.swift; sourceTree = "<group>"; };
 		0EB454562A5D651700428C00 /* HeroresTablePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroresTablePresenterTests.swift; sourceTree = "<group>"; };
+		0ECD74CA2A67D749004E4350 /* HeroesTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewControllerTests.swift; sourceTree = "<group>"; };
+		0ECD74CD2A67F21D004E4350 /* InfoViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewControllerTests.swift; sourceTree = "<group>"; };
 		0ECDDD992A557C920018BFD5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		11D2FDADF0DD4F52D397C320 /* Pods-Heroes_MVP(UIKit).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes_MVP(UIKit).debug.xcconfig"; path = "Target Support Files/Pods-Heroes_MVP(UIKit)/Pods-Heroes_MVP(UIKit).debug.xcconfig"; sourceTree = "<group>"; };
 		3EBC08D7AD30E82EFF29734D /* Pods-Heroes_MVP(UIKit)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes_MVP(UIKit)Tests.release.xcconfig"; path = "Target Support Files/Pods-Heroes_MVP(UIKit)Tests/Pods-Heroes_MVP(UIKit)Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 		0E5AFE5F2A582A2E00D70D40 /* Heroes_MVP(UIKit)Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0ECD74CC2A67F1D2004E4350 /* InfoViewTests */,
 				0EB454552A5D5BE400428C00 /* HeroesTableTests */,
 				0E4DF21C2A5BF639001EC67D /* ServicesTests */,
 				0E4DF2192A5BDFB5001EC67D /* AppInfoTests */,
@@ -232,9 +237,18 @@
 		0EB454552A5D5BE400428C00 /* HeroesTableTests */ = {
 			isa = PBXGroup;
 			children = (
+				0ECD74CA2A67D749004E4350 /* HeroesTableViewControllerTests.swift */,
 				0EB454562A5D651700428C00 /* HeroresTablePresenterTests.swift */,
 			);
 			path = HeroesTableTests;
+			sourceTree = "<group>";
+		};
+		0ECD74CC2A67F1D2004E4350 /* InfoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ECD74CD2A67F21D004E4350 /* InfoViewControllerTests.swift */,
+			);
+			path = InfoViewTests;
 			sourceTree = "<group>";
 		};
 		0ECDDD982A557C4C0018BFD5 /* TabBarView */ = {
@@ -299,6 +313,7 @@
 				0E6654072A4318000047F51D /* Frameworks */,
 				0E6654082A4318000047F51D /* Resources */,
 				7CEB36BC77CCEFB2191A85A2 /* [CP] Embed Pods Frameworks */,
+				0E5D2EB02A667750000A70E4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -372,6 +387,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E5D2EB02A667750000A70E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		36CF2DBFA80AD18B41928E97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +493,8 @@
 				0EB454572A5D651700428C00 /* HeroresTablePresenterTests.swift in Sources */,
 				0E4DF21B2A5BE04D001EC67D /* AppInfoViewControllerTests.swift in Sources */,
 				0E4DF21E2A5BF657001EC67D /* HeroesServiceTests.swift in Sources */,
+				0ECD74CB2A67D749004E4350 /* HeroesTableViewControllerTests.swift in Sources */,
+				0ECD74CE2A67F21D004E4350 /* InfoViewControllerTests.swift in Sources */,
 				0E7271302A5EA92400EC0487 /* MockHeroesServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,12 +561,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5QP3H4UKP;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "vodafone.Heroes-MVP-UIKit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -552,12 +589,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5QP3H4UKP;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "vodafone.Heroes-MVP-UIKit-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;

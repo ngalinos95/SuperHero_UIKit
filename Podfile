@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '14.0'
 use_frameworks!
 
 target 'Heroes_MVP(UIKit)' do
@@ -10,8 +10,12 @@ end
 target 'Heroes_MVP(UIKit)Tests' do
   project 'Heroes_MVP(UIKit)'
   pod 'PromiseKit'
+  pod 'SnapshotTesting'
+
   
 end
+
+
 
 
 

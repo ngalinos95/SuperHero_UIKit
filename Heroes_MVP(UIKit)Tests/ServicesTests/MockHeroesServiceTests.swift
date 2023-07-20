@@ -10,12 +10,17 @@ import XCTest
 import PromiseKit
 
 class MockHeroesServiceTests: XCTestCase {
-    func testGetSuperHero()throws {
+    var superHeroTest: SuperHero?
+    var catchError = false
+    let mockURLSession = MockURLSession()
+    var expectedSuperhero: SuperHero!
+    var service: HeroesService!
+    var expectation: XCTestExpectation!
+
+    override func setUp() {
+        super.setUp()
+        
         // Prepare mock session
-        //Given
-        var superHeroTest : SuperHero?
-        var catchError = false
-        let mockURLSession = MockURLSession()
         let responseData = """
             {
                 "id": "1",
@@ -42,31 +47,42 @@ class MockHeroesServiceTests: XCTestCase {
                 }
             }
             """.data(using: .utf8)
-        let expectedSuperhero = try JSONDecoder().decode(SuperHero.self, from: responseData!)
         mockURLSession.responseData = responseData
         
         // Create HeroesService with the mock session
-        let service = HeroesService(session: mockURLSession)
+        service = HeroesService(session: mockURLSession)
         
         // Set up expectation
-        let expectation = XCTestExpectation(description: "Get SuperHero")
+        expectation = XCTestExpectation(description: "Get SuperHero")
         
+        // Initialize the expected superhero directly here
+        expectedSuperhero = try! JSONDecoder().decode(SuperHero.self, from: responseData!)
+    }
+
+    override func tearDown() {
+        super.tearDown()
+        
+        superHeroTest = nil
+        catchError = false
+        service = nil
+        expectation = nil
+    }
+
+    func testGetSuperHero() throws {
         // Perform the request
         service.getSuperHero(id: "1").done { superhero in
             // Fulfill the expectation
-            expectation.fulfill()
-            superHeroTest = superhero
-            
+            self.expectation.fulfill()
+            self.superHeroTest = superhero
         }.catch { error in
             // Fail the test in case of an error
-            catchError = true
+            self.catchError = true
         }
-        
+
         // Wait for the expectation to be fulfilled
         wait(for: [expectation], timeout: 10.0)
-        
+
         XCTAssertEqual(expectedSuperhero, superHeroTest)
         XCTAssertFalse(catchError)
     }
 }
-

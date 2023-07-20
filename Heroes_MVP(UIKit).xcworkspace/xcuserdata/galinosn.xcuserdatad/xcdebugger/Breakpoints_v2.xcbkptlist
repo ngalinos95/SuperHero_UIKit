@@ -23,114 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4161FB32-5097-4476-A1A0-838BE229992F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "HeroesTableViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - d17660bbf9cf7c3d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.init(presenter: Heroes_MVP_UIKit_.HeroTablePresenter) -&gt; Heroes_MVP_UIKit_.HeroesTableViewController"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 72affb6693979f6e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Heroes_MVP_UIKit_.HeroesTableViewController&gt;"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 250eebb793ed9903"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.getter : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 2e831757bb8c410f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.setter : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - e8f57471f0b93f00"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.modify : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt;"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "4161FB32-5097-4476-A1A0-838BE229992F - 94add24fb7396462"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Heroes_MVP_UIKit_.HeroesTableViewController.filteredHeroes.modify : Swift.Array&lt;Heroes_MVP_UIKit_.SuperHero&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Heroes_MVP(UIKit)"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)/HeroesTable/HeroesTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A8E33C59-83A0-43D1-A7D1-E2BB230079E1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -138,8 +30,8 @@
             filePath = "Heroes_MVP(UIKit)Tests/HeroesTableTests/HeroresTablePresenterTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "testFetchData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,8 +46,8 @@
             filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "fetchData()"
             landmarkType = "7">
             <Locations>
@@ -217,10 +109,272 @@
             filePath = "Heroes_MVP(UIKit)/HeroesTable/HeroesTablePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "fetchData()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B133254-20E1-4670-8211-E10D4F9AA973"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)/Services/MockHeroesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "InfoViewControllerTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - 3d2d8028294f29f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - 2e4339039633f999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - daeea9571c16c0ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - 7360f787845f8529"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init(selector: ObjectiveC.Selector) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - ea6548f43782a27b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init() -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - 97fc6eae7e1a2408"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init() -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "5AAD7E80-CF91-4B76-A311-5AA9B63B1174 - d27b189dda88e149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__deallocating_deinit"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51A284AA-7C57-410A-995C-344FD045A346"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - 3d2d8028294f29f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - 2e4339039633f999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - daeea9571c16c0ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - 7360f787845f8529"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init(selector: ObjectiveC.Selector) -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - ea6548f43782a27b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__allocating_init() -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - 97fc6eae7e1a2408"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.init() -&gt; Heroes_MVP_UIKit_Tests.InfoViewControllerTests"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "51A284AA-7C57-410A-995C-344FD045A346 - d27b189dda88e149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Heroes_MVP_UIKit_Tests.InfoViewControllerTests.__deallocating_deinit"
+                  moduleName = "Heroes_MVP(UIKit)Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galinosn/Xcode/HeroesAPI_MVP-UIKit-/Heroes_MVP(UIKit)Tests/InfoViewTests/InfoViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
