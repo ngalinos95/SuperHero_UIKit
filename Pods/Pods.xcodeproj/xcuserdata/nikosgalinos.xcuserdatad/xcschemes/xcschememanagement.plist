@@ -4,26 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Heroes_MVP(UIKit).xcscheme_^#shared#^_</key>
+		<key>Pods-Heroes_MVP(UIKit).xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Heroes_MVP(UIKit)Tests.xcscheme_^#shared#^_</key>
+		<key>Pods-Heroes_MVP(UIKit)Tests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>PromiseKit.xcscheme_^#shared#^_</key>
+		<key>PromiseKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>SnapshotTesting.xcscheme_^#shared#^_</key>
+		<key>SnapshotTesting.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

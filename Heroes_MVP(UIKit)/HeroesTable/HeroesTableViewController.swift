@@ -114,6 +114,7 @@ extension HeroesTableViewController: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell =
+        // swiftlint:disable:next force_cast
         tableVw.dequeueReusableCell(withIdentifier: HeroesTableViewCell.cellId, for: indexPath) as!HeroesTableViewCell
         cell.configure(heroName: self.filteredHeroes[indexPath.row].name)
         return cell
