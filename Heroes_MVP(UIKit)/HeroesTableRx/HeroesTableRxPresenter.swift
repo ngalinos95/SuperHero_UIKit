@@ -7,15 +7,16 @@
 
 import Foundation
 import PromiseKit
+import RxSwift
+import RxCocoa
 
-/* This means that any class conforming to
- HeroesPresenterDelegate must also be a subclass
- of UIViewController and implement the methods defined in UserHeroesPresenterDelegate.
+/* We use reactive programming in order to implement our
+ data flow.In this example Rx replaces the need of delegates
  */
 
 class HeroTableRxPresenter {
-    weak var delegate: HeroesPresenterDelegate?
     var superHeroList: [SuperHero] = []
+    var superHeroes = PublishSubject<[SuperHero]>()
     var heroesService: HeroesServiceProtocol!
     // we dependency inject (DI) the HeroesService()
     init(heroesService: HeroesServiceProtocol = HeroesService()) {
@@ -33,7 +34,8 @@ class HeroTableRxPresenter {
                 self.superHeroList.append(hero)
             }
             self.superHeroList.sort { Int($0.id)! < Int($1.id)! }
-//            self.delegate?.presentHero(hero: self.superHeroList)
+            self.superHeroes.onNext(self.superHeroList)
+            self.superHeroes.onCompleted()
         }.catch { _ in
             // Handle error
         }

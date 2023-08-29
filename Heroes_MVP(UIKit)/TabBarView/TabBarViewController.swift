@@ -16,7 +16,7 @@ class TabBarViewController: UIViewController {
     // MARK: - Setup
     func setup () {
         // initiate all the view controllers of the tab bar interface
-        let heroesTableViewController = UINavigationController(rootViewController: HeroesTableViewController())
+        let heroesTableViewController = UINavigationController(rootViewController: HeroesTableRxViewController())
         let appInfoViewController = UINavigationController(rootViewController: AppInfoVIewController())
         // Set the title of each tab
         heroesTableViewController.title = "List"

@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E032FF82A4C17A800D4326E /* HeroesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E032FF72A4C17A800D4326E /* HeroesService.swift */; };
-		0E04B20D2A57E44700822A3B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B20C2A57E44700822A3B /* TestViewController.swift */; };
-		0E04B20F2A57E46000822A3B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B20E2A57E46000822A3B /* TestView.swift */; };
-		0E04B2112A57E48100822A3B /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E04B2102A57E48100822A3B /* TestView.xib */; };
 		0E08F4552A5680E3008A617A /* AppInfoVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08F4532A5680E3008A617A /* AppInfoVIewController.swift */; };
 		0E08F4562A5680E3008A617A /* AppInfoVIewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E08F4542A5680E3008A617A /* AppInfoVIewController.xib */; };
 		0E1EC2552A443E1200626551 /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1EC2542A443E1200626551 /* HeroesTableViewController.swift */; };
@@ -53,9 +50,6 @@
 
 /* Begin PBXFileReference section */
 		0E032FF72A4C17A800D4326E /* HeroesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesService.swift; sourceTree = "<group>"; };
-		0E04B20C2A57E44700822A3B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		0E04B20E2A57E46000822A3B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		0E04B2102A57E48100822A3B /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		0E04B2172A58173000822A3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0E08F4532A5680E3008A617A /* AppInfoVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVIewController.swift; sourceTree = "<group>"; };
 		0E08F4542A5680E3008A617A /* AppInfoVIewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppInfoVIewController.xib; sourceTree = "<group>"; };
@@ -126,16 +120,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		0E04B20B2A57E42100822A3B /* TestView */ = {
-			isa = PBXGroup;
-			children = (
-				0E04B20C2A57E44700822A3B /* TestViewController.swift */,
-				0E04B20E2A57E46000822A3B /* TestView.swift */,
-				0E04B2102A57E48100822A3B /* TestView.xib */,
-			);
-			path = TestView;
-			sourceTree = "<group>";
-		};
 		0E08F4502A5680A6008A617A /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +180,6 @@
 		0E66540C2A4318000047F51D /* Heroes_MVP(UIKit) */ = {
 			isa = PBXGroup;
 			children = (
-				0E04B20B2A57E42100822A3B /* TestView */,
 				0E917B452A4ACFA500E03FE7 /* Models */,
 				0E032FF62A4C179500D4326E /* Services */,
 				0ECDDD982A557C4C0018BFD5 /* TabBarView */,
@@ -392,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E04B2112A57E48100822A3B /* TestView.xib in Resources */,
 				0E66541A2A4318020047F51D /* LaunchScreen.storyboard in Resources */,
 				0E08F4562A5680E3008A617A /* AppInfoVIewController.xib in Resources */,
 				0E6654172A4318020047F51D /* Assets.xcassets in Resources */,
@@ -521,11 +503,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7271372A5EC3B400EC0487 /* MockURLSession.swift in Sources */,
-				0E04B20F2A57E46000822A3B /* TestView.swift in Sources */,
 				0E917B442A4ACF6400E03FE7 /* HeroesTablePresenter.swift in Sources */,
 				0E1EC2552A443E1200626551 /* HeroesTableViewController.swift in Sources */,
 				CEC952602A9CD88D008387C3 /* HeroesTableRxPresenter.swift in Sources */,
-				0E04B20D2A57E44700822A3B /* TestViewController.swift in Sources */,
 				0E032FF82A4C17A800D4326E /* HeroesService.swift in Sources */,
 				0E1EC2572A443E5000626551 /* HeroesTableViewCell.swift in Sources */,
 				0ECDDD9A2A557C920018BFD5 /* TabBarViewController.swift in Sources */,

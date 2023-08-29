@@ -24,7 +24,7 @@ class HeroesTableViewController: UIViewController, HeroesPresenterDelegate, UISe
     private var filteredHeroes: [SuperHero] = [] // we create a new array to store the filtered heroes
      var heroes: [SuperHero] = [] {
         didSet {
-            filteredHeroes = heroes // Set the initial filteredHeroes array
+            self.filteredHeroes = heroes // Set the initial filteredHeroes array
         }
     }
     // MARK: - UI
