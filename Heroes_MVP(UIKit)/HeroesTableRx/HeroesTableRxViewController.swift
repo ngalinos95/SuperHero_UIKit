@@ -74,11 +74,11 @@ class HeroesTableRxViewController: UIViewController, UISearchResultsUpdating {
     func bindTableData() {
         // FetchData via the presenter
         presenter.fetchData()
-        // Bind heroes from the viewController to the superheroes from the presenter
-        presenter.superHeroes.bind { [weak self] superHeroList in
-            self?.heroes = superHeroList
-            // Update your UI here if needed
-        }.disposed(by: bag)
+        // Fetch superHeroes from the presenter to the heroes from the ViewController
+        let heroesSubcription = presenter.superHeroes.subscribe(onNext: {heroes in
+            self.heroes = heroes
+        })
+
         // Bind superHeroes from the presenter to the tableVw
         self.filteredHeroes.bind(
             to: tableVw.rx.items(
