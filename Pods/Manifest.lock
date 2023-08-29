@@ -8,21 +8,35 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.18.1):
     - PromiseKit/CorePromise
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SnapshotTesting (1.9.0)
 
 DEPENDENCIES:
   - PromiseKit
+  - RxCocoa
+  - RxSwift
   - SnapshotTesting
 
 SPEC REPOS:
   trunk:
     - PromiseKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapshotTesting
 
 SPEC CHECKSUMS:
   PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
 
-PODFILE CHECKSUM: b2d191b425c98516b623aaf2e8e478992f910c2f
+PODFILE CHECKSUM: ad500afb80a2b756c79c6ced818f4687bc8f5033
 
 COCOAPODS: 1.12.1

@@ -4,6 +4,8 @@ use_frameworks!
 target 'Heroes_MVP(UIKit)' do
   project 'Heroes_MVP(UIKit)'
   pod 'PromiseKit'
+  pod 'RxSwift'
+  pod 'RxCocoa'
   
 end
 

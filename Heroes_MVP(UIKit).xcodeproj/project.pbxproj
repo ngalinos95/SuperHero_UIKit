@@ -36,6 +36,9 @@
 		0ECDDD9A2A557C920018BFD5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDDD992A557C920018BFD5 /* TabBarViewController.swift */; };
 		2A7485E0A8CBC2443BB39C9F /* Pods_Heroes_MVP_UIKit_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5AFE6A2A582AA000D70D40 /* Pods_Heroes_MVP_UIKit_.framework */; };
 		57AF1339516496194B5417AE /* Pods_Heroes_MVP_UIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5763FD54763686106D8477 /* Pods_Heroes_MVP_UIKit_Tests.framework */; };
+		CEC9525E2A9CD863008387C3 /* HeroesTableRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9525D2A9CD863008387C3 /* HeroesTableRxViewController.swift */; };
+		CEC952602A9CD88D008387C3 /* HeroesTableRxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9525F2A9CD88D008387C3 /* HeroesTableRxPresenter.swift */; };
+		CEC952622A9CD8C3008387C3 /* HeroesTableRxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC952612A9CD8C3008387C3 /* HeroesTableRxViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		7072BA58B72AD133627B76E4 /* Pods-Heroes_MVP(UIKit).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes_MVP(UIKit).release.xcconfig"; path = "Target Support Files/Pods-Heroes_MVP(UIKit)/Pods-Heroes_MVP(UIKit).release.xcconfig"; sourceTree = "<group>"; };
 		7A5763FD54763686106D8477 /* Pods_Heroes_MVP_UIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heroes_MVP_UIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4E80A968A202C8A513C90 /* Pods-Heroes_MVP(UIKit)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heroes_MVP(UIKit)Tests.debug.xcconfig"; path = "Target Support Files/Pods-Heroes_MVP(UIKit)Tests/Pods-Heroes_MVP(UIKit)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC9525D2A9CD863008387C3 /* HeroesTableRxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableRxViewController.swift; sourceTree = "<group>"; };
+		CEC9525F2A9CD88D008387C3 /* HeroesTableRxPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableRxPresenter.swift; sourceTree = "<group>"; };
+		CEC952612A9CD8C3008387C3 /* HeroesTableRxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableRxViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 				0E032FF62A4C179500D4326E /* Services */,
 				0ECDDD982A557C4C0018BFD5 /* TabBarView */,
 				0E08F4502A5680A6008A617A /* AppInfo */,
+				CEC9525C2A9CD65C008387C3 /* HeroesTableRx */,
 				0E917B422A4ACE1000E03FE7 /* HeroesTable */,
 				0E917B412A4ACDFB00E03FE7 /* InfoView */,
 				0E66540D2A4318000047F51D /* AppDelegate.swift */,
@@ -268,6 +275,16 @@
 				7A5763FD54763686106D8477 /* Pods_Heroes_MVP_UIKit_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC9525C2A9CD65C008387C3 /* HeroesTableRx */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9525D2A9CD863008387C3 /* HeroesTableRxViewController.swift */,
+				CEC952612A9CD8C3008387C3 /* HeroesTableRxViewCell.swift */,
+				CEC9525F2A9CD88D008387C3 /* HeroesTableRxPresenter.swift */,
+			);
+			path = HeroesTableRx;
 			sourceTree = "<group>";
 		};
 		EA2FBC4083037CFBE7913351 /* Pods */ = {
@@ -507,13 +524,16 @@
 				0E04B20F2A57E46000822A3B /* TestView.swift in Sources */,
 				0E917B442A4ACF6400E03FE7 /* HeroesTablePresenter.swift in Sources */,
 				0E1EC2552A443E1200626551 /* HeroesTableViewController.swift in Sources */,
+				CEC952602A9CD88D008387C3 /* HeroesTableRxPresenter.swift in Sources */,
 				0E04B20D2A57E44700822A3B /* TestViewController.swift in Sources */,
 				0E032FF82A4C17A800D4326E /* HeroesService.swift in Sources */,
 				0E1EC2572A443E5000626551 /* HeroesTableViewCell.swift in Sources */,
 				0ECDDD9A2A557C920018BFD5 /* TabBarViewController.swift in Sources */,
 				0E7271342A5EB58500EC0487 /* URLSessionWrapper.swift in Sources */,
+				CEC9525E2A9CD863008387C3 /* HeroesTableRxViewController.swift in Sources */,
 				0E66540E2A4318000047F51D /* AppDelegate.swift in Sources */,
 				0E917B472A4ACFD800E03FE7 /* SuperHeroModel.swift in Sources */,
+				CEC952622A9CD8C3008387C3 /* HeroesTableRxViewCell.swift in Sources */,
 				0E856CE32A53F29600DD4763 /* InfoViewController.swift in Sources */,
 				0E08F4552A5680E3008A617A /* AppInfoVIewController.swift in Sources */,
 				0EB454522A5D435A00428C00 /* MockHeroesService.swift in Sources */,
