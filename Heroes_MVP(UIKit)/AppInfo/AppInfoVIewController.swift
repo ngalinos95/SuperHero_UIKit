@@ -2,7 +2,7 @@
 //  AppInfoVIewController.swift
 //  Heroes_MVP(UIKit)
 //
-//  Created by Nikos Galinos, Vodafone on 6/7/23.
+//  Created by Nikos Galinos,   on 6/7/23.
 //
 
 import UIKit

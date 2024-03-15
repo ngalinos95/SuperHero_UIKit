@@ -2,7 +2,7 @@
 //  SuperHeroModel.swift
 //  Heroes_MVP(UIKit)
 //
-//  Created by Nikos Galinos, Vodafone on 27/6/23.
+//  Created by Nikos Galinos,   on 27/6/23.
 //
 
 import Foundation

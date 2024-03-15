@@ -2,7 +2,7 @@
 //  HeroesServiceTests.swift
 //  Heroes_MVP(UIKit)Tests
 //
-//  Created by Nikos Galinos, Vodafone on 10/7/23.
+//  Created by Nikos Galinos,   on 10/7/23.
 //  UnitTest of the service without using mocking for the service
 
 import XCTest

@@ -2,7 +2,7 @@
 //  InfoViewControllerTests.swift
 //  Heroes_MVP(UIKit)Tests
 //
-//  Created by Nikos Galinos, Vodafone on 19/7/23.
+//  Created by Nikos Galinos,   on 19/7/23.
 //
 
 import XCTest

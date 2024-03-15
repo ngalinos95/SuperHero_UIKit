@@ -2,7 +2,7 @@
 //  MockHeroesService.swift
 //  Heroes_MVP(UIKit)
 //
-//  Created by Nikos Galinos, Vodafone on 11/7/23.
+//  Created by Nikos Galinos,   on 11/7/23.
 //
 
 import Foundation

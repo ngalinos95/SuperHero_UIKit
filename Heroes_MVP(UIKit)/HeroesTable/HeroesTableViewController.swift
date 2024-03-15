@@ -2,7 +2,7 @@
 //  HeroesTableViewController.swift
 //  Heroes_MVP(UIKit)
 //
-//  Created by Nikos Galinos, Vodafone on 22/6/23.
+//  Created by Nikos Galinos,   on 22/6/23.
 //
 
 import UIKit

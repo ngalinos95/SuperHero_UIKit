@@ -2,7 +2,7 @@
 //  TestViewController.swift
 //  Heroes_MVP(UIKit)
 //
-//  Created by Nikos Galinos, Vodafone on 7/7/23.
+//  Created by Nikos Galinos,   on 7/7/23.
 //
 // This is a test View Controller in order to test the ability to create a seperate UIView with IB (.xib file)
 import UIKit
